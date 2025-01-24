@@ -1,8 +1,7 @@
 let btn = document.getElementById('btn');
 btn.addEventListener('click', function (e) {
   e.preventDefault();
-  validaNome();
-  validaSenha();
+
 });
 function validaNome() {
   let nome = document.getElementById('nome').value;
