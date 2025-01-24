@@ -8,7 +8,7 @@ btn.addEventListener('click', function (e) {
 function validaNome() {
   let nome = document.getElementById('nome').value;
   if (nome.length >= 5) {
-    alert('valido');
+    console.log('')
   } else {
     alert('invalido');
   }
@@ -16,15 +16,8 @@ function validaNome() {
 function validaSenha() {
   let senha = document.getElementById('senha').value;
   if (senha.length >= 5) {
-    alert('valido');
+    console.log('')
   } else {
     alert('invalido');
-  }
-}
-function cadastrado () {
-  if((validaNome == true) (validaSenha == true)){
-    alert('Você foi cadastrado. Parabéns')
-  }else{
-    alert('algo deu errado')
   }
 }
