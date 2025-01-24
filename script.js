@@ -5,7 +5,7 @@ btn.addEventListener('click', function (e) {
 });
 function validaNome() {
   let nome = document.getElementById('nome').value;
-  if (nome.length > 5) {
+  if (nome.length >= 5) {
     alert('valido');
   } else {
     alert('invalido');
