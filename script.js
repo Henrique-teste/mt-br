@@ -21,7 +21,9 @@ function validaSenha() {
   }
 }
 function cadastrado () {
-  if(validaNome == true){
-    
+  if((validaNome == true) (validaSenha == true)){
+    alert('Você foi cadastrado. Parabéns')
+  }else{
+    alert('algo deu errado')
   }
 }
