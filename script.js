@@ -16,8 +16,8 @@ function validaNome() {
 function validaSenha() {
   let senha = document.getElementById('senha').value;
   if (senha.length >= 5) {
-    senha.style.color = 'green';
+    senha.style.background = 'green';
   } else {
-    senha.style.color = 'red';
+    senha.style.background = 'red';
   }
 }
