@@ -7,7 +7,8 @@ btn.addEventListener('click', function (e) {
 function validaNome() {
   let nome = document.getElementById('nome').value;
   if (nome.length >= 5) {
-    alert('valido')
+    alert('Seu nome é valido')
+    nome.style.display = 'block'
   } else {
     alert('invalido')
   }
@@ -15,7 +16,8 @@ function validaNome() {
 function validaSenha() {
   let senha = document.getElementById('senha').value;
   if (senha.length >= 5) {
-    alert('valido')
+        alert('Sua senha é valido')
+    btn.style.display = 'block'
   } else {
     alert('invalido')
   }
