@@ -3,7 +3,6 @@ btn.addEventListener('click', function (e) {
   e.preventDefault();
   validaNome();
   validaSenha();
-  cadastrado();
 });
 function validaNome() {
   let nome = document.getElementById('nome').value;
