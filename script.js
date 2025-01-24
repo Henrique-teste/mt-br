@@ -13,10 +13,15 @@ function validaNome() {
   }
 }
 function validaSenha() {
-  let nome = document.getElementById('nome').value;
+  let senha = document.getElementById('senha').value;
   if (nome.length >= 5) {
     alert('valido');
   } else {
     alert('invalido');
+  }
+}
+function cadastrado () {
+  if(validaNome == true){
+    
   }
 }
