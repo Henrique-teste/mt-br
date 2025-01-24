@@ -8,16 +8,16 @@ btn.addEventListener('click', function (e) {
 function validaNome() {
   let nome = document.getElementById('nome').value;
   if (nome.length >= 5) {
-    console.log('')
+    nome.style.color = 'green';
   } else {
-    alert('invalido');
+    nome.style.color = 'green';
   }
 }
 function validaSenha() {
   let senha = document.getElementById('senha').value;
   if (senha.length >= 5) {
-    console.log('')
+    senha.style.color = 'green';
   } else {
-    alert('invalido');
+    senha.style.color = 'red';
   }
 }
