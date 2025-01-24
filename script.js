@@ -7,9 +7,9 @@ btn.addEventListener('click', function (e) {
 function validaNome() {
   let nome = document.getElementById('nome').value;
   if (nome.length >= 5) {
-    nome.style.color = 'green';
+    nome.style.border = 'green';
   } else {
-    nome.style.color = 'green';
+    nome.style.border = 'red';
   }
 }
 function validaSenha() {
