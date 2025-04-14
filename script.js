@@ -1,4 +1,4 @@
-let nome = document.getElementById('#nome').value
+let nome = document.getElementById('nome').value
 
 btn1.addEventListerner('submit',function(){
 e.preventDefault();
