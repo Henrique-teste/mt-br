@@ -1,6 +1,3 @@
 let nome = document.getElementById('nome').value
-
-btn1.addEventListener('submit',function(){
-e.preventDefault();
-alert(nome.value)
-})
+let btn1 = document.getElementById('btn1')
+let btn2 = document.getElementById('btn2')
